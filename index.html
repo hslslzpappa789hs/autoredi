@@ -2,44 +2,35 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Click</title>
-
-<!-- Police gothique -->
-<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<title>Link</title>
 
 <style>
     html, body {
         margin: 0;
         width: 100%;
         height: 100%;
-        background: #000;
+        background: black;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: 'UnifrakturCook', cursive;
     }
 
-    button {
-        background: #001f3f; /* bleu foncé */
-        color: #00aaff;
-        border: 2px solid #00aaff;
-        padding: 25px 60px;
-        font-size: 48px;
-        cursor: pointer;
-        border-radius: 8px;
-        transition: 0.2s ease;
+    a {
+        color: white;
+        font-size: 32px;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
     }
 
-    button:hover {
-        background: #003366;
-        transform: scale(1.05);
+    a:hover {
+        text-decoration: underline;
     }
 </style>
 </head>
 
 <body>
-    <button onclick="window.location.href='https://guns.lol/smehli'">
-        clique mw
-    </button>
+    <a href="https://guns.lol/smehli" target="_blank">
+        https://guns.lol/smehli
+    </a>
 </body>
 </html>
