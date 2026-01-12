@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>...</title>
+<meta charset="UTF-8">
+<title>Click</title>
 
-    <!-- Redirection automatique après 0 seconde -->
-    <meta http-equiv="refresh" content="0; url=https://guns.lol/smehli">
+<!-- Police gothique -->
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
 
-    <!-- Redirection JS (en secours) -->
-    <script>
-        window.location.href = "https://guns.lol/smehli";
-    </script>
+<style>
+    html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'UnifrakturCook', cursive;
+    }
+
+    button {
+        background: #001f3f; /* bleu foncé */
+        color: #00aaff;
+        border: 2px solid #00aaff;
+        padding: 25px 60px;
+        font-size: 48px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: 0.2s ease;
+    }
+
+    button:hover {
+        background: #003366;
+        transform: scale(1.05);
+    }
+</style>
 </head>
+
 <body>
-    <p>…  
-       <a href="https://guns.lol/smehli">~</a>.
-    </p>
+    <button onclick="window.location.href='https://guns.lol/smehli'">
+        clique mw
+    </button>
 </body>
 </html>
